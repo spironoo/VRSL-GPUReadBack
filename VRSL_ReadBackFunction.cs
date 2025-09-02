@@ -187,7 +187,7 @@ namespace VRSL{
         [SerializeField]
         private float[] floatSmoothingMultiplier = new float[512];
         [SerializeField]
-        private float smoothingSpeed = 0.1f;
+        public float smoothingSpeed = 0.1f;
 
         //int hardoffset = 1;
 
